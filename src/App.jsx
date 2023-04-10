@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import USDCABI from './usdcabi.json';
+// import USDCABI from './usdcabi.json';
+import { abi as USDCABI } from '@openzeppelin/contracts/token/ERC20/ERC20.json';
 import Web3 from 'web3';
 
 function App() {
